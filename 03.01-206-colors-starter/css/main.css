@@ -65,39 +65,47 @@ footer {
 
   #column-1 {
     background-color: antiquewhite;
+    width: 50%;
+
   }
 
   #column-2 {
     background-color: aqua;
+    width: 50%;
   }
 
   #column-3 {
-    background-color:aquamarine;
+    background-color: aquamarine;
+    width: 100%;
   }
 
   footer {
     background-color: azure;
   }
-  
 }
+
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
     background-color: cadetblue;
+
   }
 
   #column-1 {
     background-color: cornflowerblue;
+    width: 33%;
   }
 
   #column-2 {
     background-color: chocolate;
+    width: 33%;
   }
 
   #column-3 {
     background-color: crimson;
+    width: 33%;
   }
 
   footer {
