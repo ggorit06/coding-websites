@@ -104,7 +104,7 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1.5em;
   height: 100%;
   color: #fff;
 }
@@ -116,10 +116,23 @@ footer {
   width: 100%;
 }
 
+header {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left !important;
+    font-size: 2.5em;
+}
+
 main {
-  background-color: #ccc;
+  background-color: #222;
   height: 250px;
   width: 100%;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  border-bottom: 10px double white;
+  border-top: 10px double white;
+
 }
 
 header,
@@ -141,8 +154,12 @@ main {
 .flex-items {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #222;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Playfair Display', serif;
   width: 30%;
   height: 200px;
   display: flex;
@@ -150,6 +167,9 @@ main {
   align-items: center;
 }
 
+ footer {
+    border-top: 10px double white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
