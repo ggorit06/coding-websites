@@ -131,7 +131,15 @@ h4 {
   font-weight: 500;
   margin: 20px 0;
 }
- 
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 p {
   font-size: 0.875em;
   line-height: 1.125em;
@@ -164,6 +172,14 @@ footer {
 
 header {
   padding: 15px 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -238,8 +254,14 @@ footer .copyright {
 /*------------- - Homepage ------------------- */
 
 .hero-area {
+  background: url('../img/tourjapan2.jpg') #3a3a3a;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: row wrap;
 }
 
@@ -291,6 +313,9 @@ input [type=button] {
 /*Features */
 
 .features {
+  background: url('../img/motheranddaughter.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -534,6 +559,9 @@ footer .contact {
 
   /* Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -582,7 +610,8 @@ footer .contact {
     width: 85%;
   }
 
-  .reviews article div {
+  .reviews article div,
+  .reviews article figure {
     width: 49%;
   }
 
@@ -692,7 +721,7 @@ footer .contact {
 
   /* Hero */
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
   }
 
