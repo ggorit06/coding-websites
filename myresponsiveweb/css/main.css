@@ -104,8 +104,13 @@ ol {
  font-size: 1.125em;
  font-weight: bold;
  list-style-type: none;
-}
  
+}
+li {
+  padding-right: 30px;
+  margin-right: 20px;
+} 
+
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -155,11 +160,7 @@ address {
   margin: 50px 0;
 }
 
-
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}
+/********* Base Header - Footer Style *******/
 
 header,
 footer {
@@ -224,7 +225,7 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 70%;
   margin: 50px 0;
 }
 
@@ -234,6 +235,7 @@ footer p {
 
 footer .contact {
   margin-bottom: 50px;
+  margin: 0 auto;
 }
 
 footer .social-icons {
@@ -383,6 +385,22 @@ input [type=button] {
   margin: 0;
 }
 
+.map-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
 footer .social {
   display: flex;
   justify-content: space-between;
@@ -405,7 +423,7 @@ footer .social-icons {
 }
 
 .faq .content-wrapper {
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,7 +437,9 @@ footer .social-icons {
 
 .faq-content {
   margin-bottom: 50px;
+  margin: 0;
 }
+
 footer .contact {
   display: block;
   width: 60%;
@@ -551,6 +571,12 @@ footer .contact {
 
   header nav ul {
     justify-content: space-between;
+  }
+
+  header nav ul li {
+    width: 55%;
+    margin-right: auto;
+    padding-right: 30px;
   }
 
   .header-divider {
