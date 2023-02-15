@@ -145,7 +145,6 @@ img {
 
 figure {
   margin: 0;
-  width: 90%;
 }
 
 p {
@@ -167,7 +166,7 @@ address {
 
 header,
 footer {
-  background-color: #37291f;
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,6 +264,7 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
+  font-size: .875em;
 }
 
 /*------------- - Homepage ------------------- */
@@ -291,7 +291,7 @@ footer .copyright {
 /* Aside */
 
 aside {
-  background-color: #8d2a1d;
+  background-color: #35516B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,23 +304,23 @@ aside .form {
   margin-top: 30px;
 }
 
-input [type=text] {
+input[type="text"] {
   box-sizing: border-box;
   width: 100%;
-  color: #74261b;
+  color: #262A2C;
   font-style: italic;
   padding: 1em;
 }
 
-input [type=button] {
+input[type=button] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
-  background-color: #74261b;
+  background-color: #32301A;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
-  color: #e2e3ed;
+  color: #eadeda;
   border: none;
   text-align: center;
   text-transform: uppercase;
@@ -332,7 +332,7 @@ input [type=button] {
   background: url('../img/motheranddaughter.jpg');
   background-size: cover;
   background-position: center;
-  filter: grayscale(70%);
+  filter: grayscale(50%);
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -374,7 +374,7 @@ input [type=button] {
 /* REVIEWS */
 
 .reviews {
-  background-color: #74261b;
+  background-color: #35516B;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -393,7 +393,7 @@ input [type=button] {
 }
 
 .reviews img {
-  border: 10px solid #37291f;
+  border: 10px solid #262A2C;
   margin-bottom: 20px;
 }
 
@@ -401,7 +401,7 @@ input [type=button] {
 /******ABOUT PAGE ********/
 
 .mission {
-  background-color: #8d2a1d;
+  background-color: #35516B;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -409,7 +409,7 @@ input [type=button] {
 }
 
 .contact-section {
-  background-color: #74261b;
+  background-color: #35516B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -456,7 +456,7 @@ footer .social-icons {
 /*******FAQ PAGE ******/
 
 .faq {
-  background-color: #8d2a1d;
+  background-color: #35516B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -603,7 +603,7 @@ footer .contact {
   }
 
   header figure {
-    width: 30%;
+    width: 50%;
   }
 
   header nav {
